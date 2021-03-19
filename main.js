@@ -7,6 +7,6 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'});
    
    // Send the response body as "Hello Archana"
-   response.end('Hello Archana\n');
+   response.end('Hello Archana how are you\n');
 }).listen(8081);
 console.log('Server running at http://localhost:8081/');
